@@ -3,12 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Light DArk Mode</title>
+    <title>Light Dark Mode</title>
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- dark mode -->
+    <div class="theme-switch-wrapper">
+        <span id="toggle-icon">
+            <span class="toggle-text">Light mode</span>
+            <i class="fas fa-sun" aria-hidden="true"></i>
+        </span>
+        <label class="theme-switch">
+            <input  type="checkbox" >
+            <div class="slider round"></div>
+        </label>
+    </div>
     <!-- nav -->
     <nav id="nav">
         <a href="#home">Home</a>
@@ -57,7 +68,16 @@
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa et corrupti, aut vitae quos explicabo. Ex veritatis iusto aliquam corrupti minima beatae, enim et aut magni ipsa, sed, asperiores itaque.
         </div>
     </section>
-    <section id="contact"><h1>contact</h1></section>
+    <section id="contact">
+        <div class="social-icons">
+           <i class="fab fa-github" aria-hidden="true"></i>
+           <i class="fab fa-codepen" aria-hidden="true"></i>
+           <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+           <i class="fab fa-medium" aria-hidden="true"></i>
+           <i class="fab fa-instagram" aria-hidden="true"></i>
+           <i class="fab fa-youtube" aria-hidden="true"></i>
+        </div>
+    </section>
 
     <!-- Script -->
     <script src="script.js"></script>
